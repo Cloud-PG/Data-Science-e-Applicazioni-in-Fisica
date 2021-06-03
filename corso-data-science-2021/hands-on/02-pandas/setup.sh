@@ -10,7 +10,7 @@ DATASETS="zynicide/wine-reviews nolanbconaway/pitchfork-data dansbecker/powerlif
 
 mkdir -p ~/.kaggle/
 
-echo '{"username":"dciangot","key":"${KAGGLE_KEY}"}' >  ~/.kaggle/kaggle.json
+echo '{"username":"dciangot","key":"'${KAGGLE_KEY}'"}' >  ~/.kaggle/kaggle.json
 
 for slug in $DATASETS
 do
