@@ -1,3 +1,11 @@
+## Prepare the environment
+
+```bash
+## Run this in bash!
+git clone https://github.com/Cloud-PG/Data-Science-e-Applicazioni-in-Fisica.git
+cd Data-Science-e-Applicazioni-in-Fisica/corso-data-science-2021/hands-on
+./prepare.sh
+```
 
 ## Credits 
 
