@@ -17,6 +17,8 @@ do
     kaggle d download -p $dest --unzip $slug
 done
 
+cd ..
+
 COMPDATASETS="home-data-for-ml-course"
 
 for comp in $COMPDATASETS
@@ -30,6 +32,8 @@ do
     cp *.csv ..
     cd ..
 done
+
+cd ..
 
 DATASETS="ryanholbrook/fe-course-data"
 
